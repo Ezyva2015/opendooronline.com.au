@@ -834,7 +834,7 @@ class WooThemes_Sensei_Frontend {
 
 	public function sensei_complete_lesson() {
 
-		echo "lesson complete task <br>";
+//		echo "lesson complete task <br>";
 		global $post, $woothemes_sensei, $current_user;
 		// Handle Quiz Completion
 		if ( isset( $_POST['quiz_complete'] ) && wp_verify_nonce( $_POST[ 'woothemes_sensei_complete_lesson_noonce' ], 'woothemes_sensei_complete_lesson_noonce' ) ) {
@@ -1016,7 +1016,7 @@ class WooThemes_Sensei_Frontend {
 
 
 
-		echo "quizee lessons <br>";
+//		echo "quizee lessons <br>";
 		global $woothemes_sensei;
 		// Get the prerequisite lesson
 		$lesson_prerequisite = (int) get_post_meta( $post_id, '_lesson_prerequisite', true );
@@ -1303,7 +1303,7 @@ class WooThemes_Sensei_Frontend {
 
 	public function sensei_lesson_preview_title_text( $course_id ) {
 
-		echo "This is the prevew title <br>";
+//		echo "This is the prevew title <br>";
 		$preview_text = __( ' (Preview)', 'woothemes-sensei' );
 
 		//if this is a paid course
