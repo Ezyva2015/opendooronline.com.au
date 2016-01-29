@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c77ac66-03f6-46e2-bb75-858bbfa51e39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/opendooronline/wp-content/plugins/sensei/classes/class-woothemes-sensei-frontend.php" afterPath="$PROJECT_DIR$/public_html/opendooronline/wp-content/plugins/sensei/classes/class-woothemes-sensei-frontend.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/opendooronline/wp-content/plugins/sensei/classes/class-woothemes-sensei-grading-user-quiz.php" afterPath="$PROJECT_DIR$/public_html/opendooronline/wp-content/plugins/sensei/classes/class-woothemes-sensei-grading-user-quiz.php" />
@@ -74,8 +73,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public_html/opendooronline/wp-content/themes/social-learner/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4920914">
-              <caret line="4134" column="0" selection-start-line="4134" selection-start-column="0" selection-end-line="4134" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3321617">
+              <caret line="4146" column="31" selection-start-line="4146" selection-start-column="9" selection-end-line="4146" selection-end-column="31" />
               <folding>
                 <element signature="e#7#170#0#PHP" expanded="true" />
                 <element signature="e#31162#31207#0#HTML" expanded="true" />
@@ -84,25 +83,25 @@
                 <element signature="e#52815#52836#0#HTML" expanded="true" />
                 <element signature="e#57663#57684#0#HTML" expanded="true" />
                 <element signature="e#66387#66408#0#HTML" expanded="true" />
-                <marker date="1454054738409" expanded="true" signature="30910:30926" placeholder="..." />
-                <marker date="1454054738409" expanded="true" signature="34124:34363" placeholder="..." />
-                <marker date="1454054738409" expanded="true" signature="37269:37281" placeholder="..." />
-                <marker date="1454054738409" expanded="true" signature="37472:37484" placeholder="..." />
-                <marker date="1454054738409" expanded="true" signature="41251:41263" placeholder="..." />
-                <marker date="1454054738409" expanded="true" signature="41459:41471" placeholder="..." />
-                <marker date="1454054738409" expanded="true" signature="43941:44001" placeholder="SELECT user_..wp_bp_groups_members..." />
-                <marker date="1454054738409" expanded="true" signature="47405:47433" placeholder="SELECT * FRO..wp_bp_groups..." />
-                <marker date="1454054738409" expanded="true" signature="49380:49440" placeholder="SELECT user_..wp_bp_groups_members..." />
-                <marker date="1454054738409" expanded="true" signature="53003:53031" placeholder="SELECT * FRO..wp_bp_groups..." />
-                <marker date="1454054738409" expanded="true" signature="55068:55128" placeholder="SELECT user_..wp_bp_groups_members..." />
-                <marker date="1454054738409" expanded="true" signature="57831:57859" placeholder="SELECT * FRO..wp_bp_groups..." />
-                <marker date="1454054738409" expanded="true" signature="59541:59601" placeholder="SELECT user_..wp_bp_groups_members..." />
-                <marker date="1454054738409" expanded="true" signature="61531:61546" placeholder="..." />
-                <marker date="1454054738409" expanded="true" signature="65893:65942" placeholder="..." />
-                <marker date="1454054738409" expanded="true" signature="66555:66583" placeholder="SELECT * FRO..wp_bp_groups..." />
-                <marker date="1454054738409" expanded="true" signature="71519:71578" placeholder="..." />
-                <marker date="1454054738409" expanded="true" signature="71603:71617" placeholder="..." />
-                <marker date="1454054738409" expanded="true" signature="71793:71864" placeholder="..." />
+                <marker date="1454055122483" expanded="true" signature="30910:30926" placeholder="..." />
+                <marker date="1454055122483" expanded="true" signature="34124:34363" placeholder="..." />
+                <marker date="1454055122483" expanded="true" signature="37269:37281" placeholder="..." />
+                <marker date="1454055122483" expanded="true" signature="37472:37484" placeholder="..." />
+                <marker date="1454055122483" expanded="true" signature="41251:41263" placeholder="..." />
+                <marker date="1454055122483" expanded="true" signature="41459:41471" placeholder="..." />
+                <marker date="1454055122483" expanded="true" signature="43941:44001" placeholder="SELECT user_..wp_bp_groups_members..." />
+                <marker date="1454055122483" expanded="true" signature="47405:47433" placeholder="SELECT * FRO..wp_bp_groups..." />
+                <marker date="1454055122483" expanded="true" signature="49380:49440" placeholder="SELECT user_..wp_bp_groups_members..." />
+                <marker date="1454055122483" expanded="true" signature="53003:53031" placeholder="SELECT * FRO..wp_bp_groups..." />
+                <marker date="1454055122483" expanded="true" signature="55068:55128" placeholder="SELECT user_..wp_bp_groups_members..." />
+                <marker date="1454055122483" expanded="true" signature="57831:57859" placeholder="SELECT * FRO..wp_bp_groups..." />
+                <marker date="1454055122483" expanded="true" signature="59541:59601" placeholder="SELECT user_..wp_bp_groups_members..." />
+                <marker date="1454055122483" expanded="true" signature="61531:61546" placeholder="..." />
+                <marker date="1454055122483" expanded="true" signature="65893:65942" placeholder="..." />
+                <marker date="1454055122483" expanded="true" signature="66555:66583" placeholder="SELECT * FRO..wp_bp_groups..." />
+                <marker date="1454055122483" expanded="true" signature="71519:71578" placeholder="..." />
+                <marker date="1454055122483" expanded="true" signature="71603:71617" placeholder="..." />
+                <marker date="1454055122483" expanded="true" signature="71793:71864" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -245,7 +244,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="social-learner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opendooronline.com.au" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opendooronline.com.au" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opendooronline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensei" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,9 +310,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="0" width="1256" height="784" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36622074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36622074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -376,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/opendooronline/wp-content/themes/social-learner/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4920914">
-          <caret line="4134" column="0" selection-start-line="4134" selection-start-column="0" selection-end-line="4134" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3321617">
+          <caret line="4146" column="31" selection-start-line="4146" selection-start-column="9" selection-end-line="4146" selection-end-column="31" />
           <folding>
             <element signature="e#7#170#0#PHP" expanded="true" />
             <element signature="e#31162#31207#0#HTML" expanded="true" />
@@ -386,25 +423,25 @@
             <element signature="e#52815#52836#0#HTML" expanded="true" />
             <element signature="e#57663#57684#0#HTML" expanded="true" />
             <element signature="e#66387#66408#0#HTML" expanded="true" />
-            <marker date="1454054738409" expanded="true" signature="30910:30926" placeholder="..." />
-            <marker date="1454054738409" expanded="true" signature="34124:34363" placeholder="..." />
-            <marker date="1454054738409" expanded="true" signature="37269:37281" placeholder="..." />
-            <marker date="1454054738409" expanded="true" signature="37472:37484" placeholder="..." />
-            <marker date="1454054738409" expanded="true" signature="41251:41263" placeholder="..." />
-            <marker date="1454054738409" expanded="true" signature="41459:41471" placeholder="..." />
-            <marker date="1454054738409" expanded="true" signature="43941:44001" placeholder="SELECT user_..wp_bp_groups_members..." />
-            <marker date="1454054738409" expanded="true" signature="47405:47433" placeholder="SELECT * FRO..wp_bp_groups..." />
-            <marker date="1454054738409" expanded="true" signature="49380:49440" placeholder="SELECT user_..wp_bp_groups_members..." />
-            <marker date="1454054738409" expanded="true" signature="53003:53031" placeholder="SELECT * FRO..wp_bp_groups..." />
-            <marker date="1454054738409" expanded="true" signature="55068:55128" placeholder="SELECT user_..wp_bp_groups_members..." />
-            <marker date="1454054738409" expanded="true" signature="57831:57859" placeholder="SELECT * FRO..wp_bp_groups..." />
-            <marker date="1454054738409" expanded="true" signature="59541:59601" placeholder="SELECT user_..wp_bp_groups_members..." />
-            <marker date="1454054738409" expanded="true" signature="61531:61546" placeholder="..." />
-            <marker date="1454054738409" expanded="true" signature="65893:65942" placeholder="..." />
-            <marker date="1454054738409" expanded="true" signature="66555:66583" placeholder="SELECT * FRO..wp_bp_groups..." />
-            <marker date="1454054738409" expanded="true" signature="71519:71578" placeholder="..." />
-            <marker date="1454054738409" expanded="true" signature="71603:71617" placeholder="..." />
-            <marker date="1454054738409" expanded="true" signature="71793:71864" placeholder="..." />
+            <marker date="1454055122483" expanded="true" signature="30910:30926" placeholder="..." />
+            <marker date="1454055122483" expanded="true" signature="34124:34363" placeholder="..." />
+            <marker date="1454055122483" expanded="true" signature="37269:37281" placeholder="..." />
+            <marker date="1454055122483" expanded="true" signature="37472:37484" placeholder="..." />
+            <marker date="1454055122483" expanded="true" signature="41251:41263" placeholder="..." />
+            <marker date="1454055122483" expanded="true" signature="41459:41471" placeholder="..." />
+            <marker date="1454055122483" expanded="true" signature="43941:44001" placeholder="SELECT user_..wp_bp_groups_members..." />
+            <marker date="1454055122483" expanded="true" signature="47405:47433" placeholder="SELECT * FRO..wp_bp_groups..." />
+            <marker date="1454055122483" expanded="true" signature="49380:49440" placeholder="SELECT user_..wp_bp_groups_members..." />
+            <marker date="1454055122483" expanded="true" signature="53003:53031" placeholder="SELECT * FRO..wp_bp_groups..." />
+            <marker date="1454055122483" expanded="true" signature="55068:55128" placeholder="SELECT user_..wp_bp_groups_members..." />
+            <marker date="1454055122483" expanded="true" signature="57831:57859" placeholder="SELECT * FRO..wp_bp_groups..." />
+            <marker date="1454055122483" expanded="true" signature="59541:59601" placeholder="SELECT user_..wp_bp_groups_members..." />
+            <marker date="1454055122483" expanded="true" signature="61531:61546" placeholder="..." />
+            <marker date="1454055122483" expanded="true" signature="65893:65942" placeholder="..." />
+            <marker date="1454055122483" expanded="true" signature="66555:66583" placeholder="SELECT * FRO..wp_bp_groups..." />
+            <marker date="1454055122483" expanded="true" signature="71519:71578" placeholder="..." />
+            <marker date="1454055122483" expanded="true" signature="71603:71617" placeholder="..." />
+            <marker date="1454055122483" expanded="true" signature="71793:71864" placeholder="..." />
           </folding>
         </state>
       </provider>

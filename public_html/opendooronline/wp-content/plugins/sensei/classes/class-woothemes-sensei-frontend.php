@@ -1236,8 +1236,31 @@ class WooThemes_Sensei_Frontend {
 
 	public function sensei_quiz_action_buttons() {
 
+		$current_user = wp_get_current_user();
+		/**
+		 * @example Safe usage: $current_user = wp_get_current_user();
+		 * if ( !($current_user instanceof WP_User) )
+		 *     return;
+		 */
+		echo 'Username: ' . $current_user->user_login . '<br />';
+		echo 'User email: ' . $current_user->user_email . '<br />';
+		echo 'User first name: ' . $current_user->user_firstname . '<br />';
+		echo 'User last name: ' . $current_user->user_lastname . '<br />';
+		echo 'User display name: ' . $current_user->display_name . '<br />';
+		echo 'User ID: ' . $current_user->ID . '<br />';
 
-		echo "This is a test button <br>";
+
+
+//		$historynotes = get_user_meta($_GET['user'],'_grading_notes_history', true);
+//
+//		$historyanswers = get_user_meta($_GET['user'],'_grading_answer_history', true);
+
+
+
+//		print_r('user' . $historynotes);
+
+
+//		echo "This is a test button <br>";
 		global $post, $current_user, $woothemes_sensei;
 		$lesson_id = (int) get_post_meta( $post->ID, '_quiz_lesson', true );
 		$lesson_course_id = (int) get_post_meta( $lesson_id, '_lesson_course', true );
@@ -1270,13 +1293,13 @@ class WooThemes_Sensei_Frontend {
                    value="<?php echo esc_attr(  wp_create_nonce( 'woothemes_sensei_save_quiz_nonce' ) ); ?>" />
             <!--#end Action Nonce's -->
 
-            <?php if ( '' == $user_quiz_grade) { ?>
+            <?php //if ( '' == $user_quiz_grade) { ?>
 		 	<span><input type="submit" name="quiz_complete" class="quiz-submit complete" value="<?php echo apply_filters( 'sensei_complete_quiz_text', __( 'Complete Quiz', 'woothemes-sensei' ) ); ?>"/></span>
 		 	<span><input type="submit" name="quiz_save" class="quiz-submit save" value="<?php echo apply_filters( 'sensei_save_quiz_text', __( 'Save Quiz', 'woothemes-sensei' ) ); ?>"/></span>
-		     <?php } // End If Statement ?>
-	          <?php if ( isset( $reset_quiz_allowed ) && $reset_quiz_allowed ) { ?>
+		     <?php// } // End If Statement ?>
+	          <?php// if ( isset( $reset_quiz_allowed ) && $reset_quiz_allowed ) { ?>
 		 	   <span><input type="submit" name="quiz_reset" class="quiz-submit reset" value="<?php echo apply_filters( 'sensei_reset_quiz_text', __( 'Reset Quiz', 'woothemes-sensei' ) ); ?>"/></span>
-		     <?php } ?>
+		     <?php//} ?>
         <?php }
 	} // End sensei_quiz_action_buttons()
 
