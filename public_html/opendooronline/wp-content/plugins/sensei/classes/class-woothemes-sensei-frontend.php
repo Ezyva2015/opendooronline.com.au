@@ -833,6 +833,8 @@ class WooThemes_Sensei_Frontend {
 	}
 
 	public function sensei_complete_lesson() {
+
+		echo "lesson complete task <br>";
 		global $post, $woothemes_sensei, $current_user;
 		// Handle Quiz Completion
 		if ( isset( $_POST['quiz_complete'] ) && wp_verify_nonce( $_POST[ 'woothemes_sensei_complete_lesson_noonce' ], 'woothemes_sensei_complete_lesson_noonce' ) ) {
@@ -1011,6 +1013,10 @@ class WooThemes_Sensei_Frontend {
 	} // End sensei_reset_lesson_button()
 
 	public function sensei_lesson_quiz_meta( $post_id = 0, $user_id = 0 ) {
+
+
+
+		echo "quizee lessons <br>";
 		global $woothemes_sensei;
 		// Get the prerequisite lesson
 		$lesson_prerequisite = (int) get_post_meta( $post_id, '_lesson_prerequisite', true );
@@ -1036,12 +1042,12 @@ class WooThemes_Sensei_Frontend {
 	        		$status = WooThemes_Sensei_Utils::sensei_user_quiz_status_message( $post_id, $user_id, true );
 	        		echo '<div class="sensei-message ' . $status['box_class'] . '">' . $status['message'] . '</div>';
 	    			if( $has_quiz_questions ) {
-						
+
 					$string = 'April 15, 2003';
 					$pattern = '/title="View the Topic Quiz"/';
 					$replacement = 'target="_blank" title="View the Topic Quiz"';
-					echo preg_replace($pattern, $replacement, $status['extra']);						
-						
+					echo preg_replace($pattern, $replacement, $status['extra']);
+
 	        			//echo $status['extra'];
     				} // End If Statement
     			} // End If Statement
@@ -1234,33 +1240,7 @@ class WooThemes_Sensei_Frontend {
 		<?php
 	} // End sensei_login_form()
 
-	public function sensei_quiz_action_buttons() {
-
-		$current_user = wp_get_current_user();
-		/**
-		 * @example Safe usage: $current_user = wp_get_current_user();
-		 * if ( !($current_user instanceof WP_User) )
-		 *     return;
-		 */
-		echo 'Username: ' . $current_user->user_login . '<br />';
-		echo 'User email: ' . $current_user->user_email . '<br />';
-		echo 'User first name: ' . $current_user->user_firstname . '<br />';
-		echo 'User last name: ' . $current_user->user_lastname . '<br />';
-		echo 'User display name: ' . $current_user->display_name . '<br />';
-		echo 'User ID: ' . $current_user->ID . '<br />';
-
-
-
-//		$historynotes = get_user_meta($_GET['user'],'_grading_notes_history', true);
-//
-//		$historyanswers = get_user_meta($_GET['user'],'_grading_answer_history', true);
-
-
-
-//		print_r('user' . $historynotes);
-
-
-//		echo "This is a test button <br>";
+	public function sensei_quiz_action_buttons() { 
 		global $post, $current_user, $woothemes_sensei;
 		$lesson_id = (int) get_post_meta( $post->ID, '_quiz_lesson', true );
 		$lesson_course_id = (int) get_post_meta( $lesson_id, '_lesson_course', true );
@@ -1323,6 +1303,7 @@ class WooThemes_Sensei_Frontend {
 
 	public function sensei_lesson_preview_title_text( $course_id ) {
 
+		echo "This is the prevew title <br>";
 		$preview_text = __( ' (Preview)', 'woothemes-sensei' );
 
 		//if this is a paid course
