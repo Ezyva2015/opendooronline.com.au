@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c77ac66-03f6-46e2-bb75-858bbfa51e39" name="Default" comment="" />
+    <list default="true" id="8c77ac66-03f6-46e2-bb75-858bbfa51e39" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/opendooronline/wp-content/plugins/sensei/classes/class-woothemes-sensei-frontend.php" afterPath="$PROJECT_DIR$/public_html/opendooronline/wp-content/plugins/sensei/classes/class-woothemes-sensei-frontend.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/opendooronline/wp-content/plugins/sensei/classes/class-woothemes-sensei-grading-user-quiz.php" afterPath="$PROJECT_DIR$/public_html/opendooronline/wp-content/plugins/sensei/classes/class-woothemes-sensei-grading-user-quiz.php" />
+    </list>
     <ignored path="opendooronline.com.au.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,12 +26,93 @@
     <favorites_list name="opendooronline.com.au" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="class-woothemes-sensei-frontend.php" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="class-woothemes-sensei-frontend.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_html/opendooronline/wp-content/plugins/sensei/classes/class-woothemes-sensei-frontend.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6623616">
-              <caret line="1239" column="42" selection-start-line="1239" selection-start-column="42" selection-end-line="1239" selection-end-column="42" />
+            <state vertical-scroll-proportion="-7.245283">
+              <caret line="1251" column="0" selection-start-line="1251" selection-start-column="0" selection-end-line="1251" selection-end-column="0" />
+              <folding>
+                <marker date="1454052750060" expanded="true" signature="51625:81417" placeholder="..." />
+                <marker date="1454052750060" expanded="true" signature="53454:55109" placeholder="..." />
+                <marker date="1454052750060" expanded="true" signature="54877:55106" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single-quiz.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/opendooronline/wp-content/themes/social-learner/sensei/single-quiz.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.538462">
+              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-single-quiz.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/opendooronline/wp-content/themes/social-learner/sensei/content-single-quiz.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8461537">
+              <caret line="20" column="59" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public_html/opendooronline/wp-content/themes/social-learner/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4920914">
+              <caret line="4134" column="0" selection-start-line="4134" selection-start-column="0" selection-end-line="4134" selection-end-column="0" />
+              <folding>
+                <element signature="e#7#170#0#PHP" expanded="true" />
+                <element signature="e#31162#31207#0#HTML" expanded="true" />
+                <element signature="e#32623#32668#0#HTML" expanded="true" />
+                <element signature="e#47237#47258#0#HTML" expanded="true" />
+                <element signature="e#52815#52836#0#HTML" expanded="true" />
+                <element signature="e#57663#57684#0#HTML" expanded="true" />
+                <element signature="e#66387#66408#0#HTML" expanded="true" />
+                <marker date="1454054738409" expanded="true" signature="30910:30926" placeholder="..." />
+                <marker date="1454054738409" expanded="true" signature="34124:34363" placeholder="..." />
+                <marker date="1454054738409" expanded="true" signature="37269:37281" placeholder="..." />
+                <marker date="1454054738409" expanded="true" signature="37472:37484" placeholder="..." />
+                <marker date="1454054738409" expanded="true" signature="41251:41263" placeholder="..." />
+                <marker date="1454054738409" expanded="true" signature="41459:41471" placeholder="..." />
+                <marker date="1454054738409" expanded="true" signature="43941:44001" placeholder="SELECT user_..wp_bp_groups_members..." />
+                <marker date="1454054738409" expanded="true" signature="47405:47433" placeholder="SELECT * FRO..wp_bp_groups..." />
+                <marker date="1454054738409" expanded="true" signature="49380:49440" placeholder="SELECT user_..wp_bp_groups_members..." />
+                <marker date="1454054738409" expanded="true" signature="53003:53031" placeholder="SELECT * FRO..wp_bp_groups..." />
+                <marker date="1454054738409" expanded="true" signature="55068:55128" placeholder="SELECT user_..wp_bp_groups_members..." />
+                <marker date="1454054738409" expanded="true" signature="57831:57859" placeholder="SELECT * FRO..wp_bp_groups..." />
+                <marker date="1454054738409" expanded="true" signature="59541:59601" placeholder="SELECT user_..wp_bp_groups_members..." />
+                <marker date="1454054738409" expanded="true" signature="61531:61546" placeholder="..." />
+                <marker date="1454054738409" expanded="true" signature="65893:65942" placeholder="..." />
+                <marker date="1454054738409" expanded="true" signature="66555:66583" placeholder="SELECT * FRO..wp_bp_groups..." />
+                <marker date="1454054738409" expanded="true" signature="71519:71578" placeholder="..." />
+                <marker date="1454054738409" expanded="true" signature="71603:71617" placeholder="..." />
+                <marker date="1454054738409" expanded="true" signature="71793:71864" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class-woothemes-sensei-grading-user-quiz.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/opendooronline/wp-content/plugins/sensei/classes/class-woothemes-sensei-grading-user-quiz.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.581819">
+              <caret line="271" column="0" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -34,10 +120,17 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/public_html/opendooronline/wp-content/themes/social-learner/sensei/single-quiz.php" />
+        <option value="$PROJECT_DIR$/public_html/opendooronline/wp-content/plugins/sensei/classes/class-woothemes-sensei-grading-user-quiz.php" />
         <option value="$PROJECT_DIR$/public_html/opendooronline/wp-content/plugins/sensei/classes/class-woothemes-sensei-frontend.php" />
+        <option value="$PROJECT_DIR$/public_html/opendooronline/wp-content/themes/social-learner/sensei/content-single-quiz.php" />
+        <option value="$PROJECT_DIR$/public_html/opendooronline/wp-content/themes/social-learner/functions.php" />
       </list>
     </option>
   </component>
@@ -45,6 +138,9 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -77,6 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -95,6 +192,16 @@
               <option name="myItemId" value="opendooronline.com.au" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opendooronline.com.au" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opendooronline.com.au" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public_html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -108,11 +215,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
+              <option name="myItemId" value="themes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sensei" />
+              <option name="myItemId" value="social-learner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -141,18 +248,9 @@
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sensei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,6 +259,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8c77ac66-03f6-46e2-bb75-858bbfa51e39" name="Default" comment="" />
@@ -174,24 +275,32 @@
     <frame x="59" y="0" width="1256" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3603679" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36622074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -203,9 +312,100 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public_html/opendooronline/wp-content/plugins/sensei/classes/class-woothemes-sensei-frontend.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6623616">
-          <caret line="1239" column="42" selection-start-line="1239" selection-start-column="42" selection-end-line="1239" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1274" column="37" selection-start-line="1274" selection-start-column="31" selection-end-line="1274" selection-end-column="37" />
+          <folding>
+            <marker date="1454052750060" expanded="true" signature="51625:81417" placeholder="..." />
+            <marker date="1454052750060" expanded="true" signature="53454:55109" placeholder="..." />
+            <marker date="1454052750060" expanded="true" signature="54877:55106" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/opendooronline/wp-content/plugins/sensei/classes/class-woothemes-sensei-grading-user-quiz.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/opendooronline/wp-content/plugins/sensei/classes/class-woothemes-sensei-grading-user-quiz.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.581819">
+          <caret line="271" column="0" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/opendooronline/wp-content/plugins/sensei/classes/class-woothemes-sensei-frontend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.245283">
+          <caret line="1251" column="0" selection-start-line="1251" selection-start-column="0" selection-end-line="1251" selection-end-column="0" />
+          <folding>
+            <marker date="1454052750060" expanded="true" signature="51625:81417" placeholder="..." />
+            <marker date="1454052750060" expanded="true" signature="53454:55109" placeholder="..." />
+            <marker date="1454052750060" expanded="true" signature="54877:55106" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/opendooronline/wp-content/themes/social-learner/sensei/single-quiz.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.538462">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/opendooronline/wp-content/themes/social-learner/sensei/content-single-quiz.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/opendooronline/wp-content/themes/social-learner/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4920914">
+          <caret line="4134" column="0" selection-start-line="4134" selection-start-column="0" selection-end-line="4134" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#170#0#PHP" expanded="true" />
+            <element signature="e#31162#31207#0#HTML" expanded="true" />
+            <element signature="e#32623#32668#0#HTML" expanded="true" />
+            <element signature="e#47237#47258#0#HTML" expanded="true" />
+            <element signature="e#52815#52836#0#HTML" expanded="true" />
+            <element signature="e#57663#57684#0#HTML" expanded="true" />
+            <element signature="e#66387#66408#0#HTML" expanded="true" />
+            <marker date="1454054738409" expanded="true" signature="30910:30926" placeholder="..." />
+            <marker date="1454054738409" expanded="true" signature="34124:34363" placeholder="..." />
+            <marker date="1454054738409" expanded="true" signature="37269:37281" placeholder="..." />
+            <marker date="1454054738409" expanded="true" signature="37472:37484" placeholder="..." />
+            <marker date="1454054738409" expanded="true" signature="41251:41263" placeholder="..." />
+            <marker date="1454054738409" expanded="true" signature="41459:41471" placeholder="..." />
+            <marker date="1454054738409" expanded="true" signature="43941:44001" placeholder="SELECT user_..wp_bp_groups_members..." />
+            <marker date="1454054738409" expanded="true" signature="47405:47433" placeholder="SELECT * FRO..wp_bp_groups..." />
+            <marker date="1454054738409" expanded="true" signature="49380:49440" placeholder="SELECT user_..wp_bp_groups_members..." />
+            <marker date="1454054738409" expanded="true" signature="53003:53031" placeholder="SELECT * FRO..wp_bp_groups..." />
+            <marker date="1454054738409" expanded="true" signature="55068:55128" placeholder="SELECT user_..wp_bp_groups_members..." />
+            <marker date="1454054738409" expanded="true" signature="57831:57859" placeholder="SELECT * FRO..wp_bp_groups..." />
+            <marker date="1454054738409" expanded="true" signature="59541:59601" placeholder="SELECT user_..wp_bp_groups_members..." />
+            <marker date="1454054738409" expanded="true" signature="61531:61546" placeholder="..." />
+            <marker date="1454054738409" expanded="true" signature="65893:65942" placeholder="..." />
+            <marker date="1454054738409" expanded="true" signature="66555:66583" placeholder="SELECT * FRO..wp_bp_groups..." />
+            <marker date="1454054738409" expanded="true" signature="71519:71578" placeholder="..." />
+            <marker date="1454054738409" expanded="true" signature="71603:71617" placeholder="..." />
+            <marker date="1454054738409" expanded="true" signature="71793:71864" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
